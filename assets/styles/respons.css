@@ -5,7 +5,7 @@
 @media screen and (max-width: 575.9px) {
 
   /* header part start  */
-  
+
   #header {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -296,3 +296,122 @@ footer .icon ul li a i {
  sm responsive css end
  ************************ */
 
+ /* ************************
+ md responsive css start
+ ************************ */
+
+@media (min-width: 768px) and (max-width: 991.9px){
+  #header {
+    padding: 15px 0px;
+  }
+  #header nav ul li a {
+    font-size: 18px;
+    padding: 0px 18px;
+  }
+  /* #header .logo {
+     border: 1px solid red; 
+  } */
+   #header nav {
+    /* border: var(--border); */
+    padding:5px 0px 
+} 
+#banner .banner_text {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+#banner .banner_text h1 {
+	font-size: 70px;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+}
+
+#banner .banner_text .line{
+  top: 145px;
+
+}
+#banner .banner_text .angle_link {
+	padding-top: 75px;
+}
+.common_heading {
+	padding-top: 70px;
+	padding-bottom: 15px;
+}
+.common_heading h2 {
+	font-size: 25px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.common_heading p {
+	font-size: 16px;
+	line-height: 22px;
+	text-align: justify;
+}
+#design .design_body {
+	padding: 30px 0px;
+}
+#design .design_body .icon {
+	height: 75px;
+	width: 75px;
+}
+#design .design_body .icon i {
+	font-size: 40px;
+	line-height: 75px;
+}
+#design .design_body h3 {
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 8px;
+}
+#design .design_body p {
+	font-size: 14px;
+	line-height: 20px;
+}
+#gallery .common_heading {
+  padding-top: 45px;
+  padding-bottom: 10px;
+ 
+}
+#gallery .common_heading p{
+  text-align: center;
+}
+#gallery .common_heading h2{
+  padding-bottom: 5px;
+}
+#gallery .gallery_image {
+	margin-bottom: 15px;
+}
+#contact_form .overlay {
+	background-color: #2e384b79;
+	padding-bottom: 50px;
+}
+#contact_form .common_heading {
+	padding-top: 40px;
+}
+#contact_form .common_heading h2 {
+	padding-bottom: 5px;
+}
+#contact_form .common_heading p{
+  text-align: center;
+}
+#contact_form form input, #contact_form form textarea {
+	font-size: 12px;
+	padding: 12px;
+	margin: 5px;
+}
+#contact_form .contact_form_body form button {
+	font-size: 16px;
+	line-height: 40px;
+	padding: 0px 30px;
+	margin-right: -6PX;
+}
+#contact_form .contact_form_body form .conferm_check span {
+	font-size: 14px;
+}
+footer {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+}
+ /* ************************
+ md responsive css end
+ ************************ */

@@ -30,8 +30,9 @@ img {
     --paragrap_color: #999999;
     --brand_color: #5fc3ff;
 }
-
-/*--- header part css start---  */
+/* **********************
+- header part css start- 
+********************** */
 #header {
     /* border: var(--border); */
     padding-top: 30px;
@@ -66,7 +67,10 @@ img {
     
 }
 
-/*--- header part css end---  */
+/* **********************
+- header part css end- 
+********************** */
+
 /* banner part css start  */
 #banner {
     /* border: var(--border); */
