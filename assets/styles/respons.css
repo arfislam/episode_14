@@ -1,0 +1,298 @@
+ /* ************************
+ xs responsive css start
+ ************************ */
+
+@media screen and (max-width: 575.9px) {
+
+  /* header part start  */
+  
+  #header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  #header nav {
+    position: relative;
+  }
+  #header nav ul {
+    flex-direction: column;
+    /* border:1px solid red; */
+    position: absolute;
+    top: 50px;
+    right: -12px; 
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    display: none;
+    z-index: 999;
+    padding: 10px 0px;
+  }
+  #header nav ul.active {
+    display: block;
+  }
+  #header nav ul li a {
+    font-size: 16px;
+  }
+  #header button {
+    float: right;
+  }
+  /* banner part start  */
+
+  #banner .banner_text {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  #banner .banner_text .line {
+    top: 100px;
+  }
+  #banner .banner_text h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+  }
+  #banner .banner_text p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    padding-bottom: 30px;
+  }
+  #banner .banner_text .btn_link {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+  #banner .banner_text .angle_link {
+    padding-top: 65px;
+  }
+  /* .common_heading part start  */
+
+  .common_heading {
+    padding-bottom: 0px;
+  }
+  .common_heading h2 {
+    font-size: 19px;
+    padding-bottom: 20px;
+  }
+  .common_heading p {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+  }
+  /* design part start  */
+
+  #design .design_body {
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  #design .design_body h3 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+  #design .design_body p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  #design .design_body .icon {
+    height: 80px;
+    width: 80px;
+  }
+  #design .design_body .icon i {
+    font-size: 40px;
+    line-height: 80px;
+  }
+
+  /* gallery part start  */
+
+  #gallery {
+    padding-bottom: 45px;
+  }
+  #gallery .common_heading {
+    padding-bottom: 10px;
+    padding-top: 50px;
+  }
+  #gallery .common_heading h2 {
+    padding-bottom: 10px;
+  }
+  #gallery .common_heading p {
+    text-align: center;
+  }
+
+  /* contact_form part start  */
+
+  #contact_form .common_heading {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  #contact_form .common_heading h2 {
+    padding-bottom: 10px;
+  }
+  #contact_form .common_heading p {
+    text-align: center;
+  }
+  #contact_form .overlay {
+    background-color: #2e384b81;
+    padding-bottom: 25px;
+}
+  #contact_form form input,
+   #contact_form form textarea {
+    font-size: 12px;
+    padding: 8px;
+    margin: 5px;
+  }
+  #contact_form .contact_form_body form button {
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0px 25px;
+    margin-right: -5PX;
+  }
+  #contact_form .contact_form_body form .conferm_check span {
+    font-size: 12px;
+  }
+
+  /* footer part start  */
+
+  footer {
+    /* border: var(--border); */
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+  footer p {
+    font-size: 12px;
+    line-height: 10px;
+    line-height: 30px;
+  }
+  footer .icon ul li a i {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #15a4fa;
+    padding: 10px 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+  }
+ }
+  /* ************************
+ xs responsive css end
+ ************************ */
+
+ /* ************************
+ sm responsive css start
+ ************************ */
+
+ @media (min-width: 576px) and (max-width: 767.9px) {
+  #header {
+    padding: 15px 0px;
+  }
+  #header nav{
+    position: relative;
+  }
+  #header nav ul{
+    position: absolute;
+    /* border: 1px solid red;  */
+    flex-direction: column;
+    right: -30px;
+    top: 53px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.884);
+    display: none;
+    z-index: 999; 
+    padding: 10px 0px;
+  }
+  #header nav ul li a {
+    font-size: 16px;
+  }
+  #header button {
+    float: right;
+  }
+  #header nav ul.active{
+    display: block;
+  }
+  #banner .banner_text {
+    padding: 50px 0px;
+  }
+  #banner .banner_text p {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  #banner .banner_text h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+  }
+  #banner .banner_text .btn_link {
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+  #banner .banner_text .angle_link {
+    padding-top: 70px;
+  }
+  #banner .banner_text .line{
+    top: 110px;
+}
+.common_heading {
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+.common_heading h2 {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.common_heading p {
+	font-size: 12px;
+	line-height: 22px;
+	text-align: justify;
+}
+#design .design_body {
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+#gallery .common_heading {
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+#gallery .common_heading h2 {
+  padding-bottom: 10px;
+}
+#gallery .common_heading p {
+  text-align: center;
+}
+#contact_form .common_heading {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+#contact_form .common_heading h2 {
+  padding-bottom: 5px;
+}
+#contact_form .common_heading p {
+  text-align: center;
+}
+#contact_form .overlay {
+  background-color: #2e384b81;
+  padding-bottom: 25px;
+}
+#contact_form form input, #contact_form form textarea {
+	font-size: 12px;
+	padding: 10px;
+	margin: 8px;
+}
+#contact_form .contact_form_body form .conferm_check span {
+  font-size: 13px;
+}
+#contact_form .contact_form_body form button {
+	font-size: 13px;
+	line-height: 35px;
+	padding: 0px 35px;
+}
+footer {
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+footer p {
+	font-size: 12px;
+	line-height: 35px;
+}
+footer .icon ul li a i {
+	font-size: 12px;
+	padding: 12px 14px;
+}
+}  
+ /* ************************
+ sm responsive css end
+ ************************ */
+
