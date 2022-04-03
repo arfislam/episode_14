@@ -30,6 +30,7 @@ img {
     --paragrap_color: #999999;
     --brand_color: #5fc3ff;
 }
+
 /* **********************
 - header part css start- 
 ********************** */
@@ -61,11 +62,12 @@ img {
     font-weight: 400;
     font-family: var(--lato);
 }
-#header nav ul li a:hover {
+
+/* #header nav ul li a:hover {
 
     color: var(--brand_color);
     
-}
+} */
 
 /* **********************
 - header part css end- 
@@ -79,7 +81,8 @@ img {
     background-position: center;
     background-repeat: no-repeat;
 }
-#banner .overlay{
+
+#banner .overlay {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.356);
@@ -92,7 +95,8 @@ img {
     padding-bottom: 83px;
     position: relative;
 }
-#banner .banner_text .line{
+
+#banner .banner_text .line {
     position: absolute;
     height: 1px;
     background-color: var(--brand_color);
@@ -100,7 +104,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     top: 335px;
- 
+
 }
 
 
@@ -177,7 +181,7 @@ padding-right: 236px;
     line-height: 32px;
     color: var(--paragrap_color);
     font-weight: 400;
-    font-family: "Lato";
+    font-family: var(--lato);
     text-align: center;
 }
 
@@ -391,7 +395,7 @@ footer p {
 footer .icon {
     /* border: var(--border); */
     float: right;
-    
+
 }
 
 footer .icon ul {
@@ -402,13 +406,19 @@ footer .icon ul {
 
 /* footer .icon ul li a {} */
 
+
 footer .icon ul li a i {
-font-size: 15px;
-color: #ffffff;
-background-color: #15a4fa;
-padding: 13px 16px;
-margin-left: 5px;
-border-radius: 3px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #15a4fa;
+    /* padding: 13px 16px; */
+    margin-left: 5px;
+    border-radius: 3px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
 }
+
 
 /* footer part css end  */
